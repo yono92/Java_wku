@@ -29,10 +29,12 @@ public class Main {
         System.out.println("문자열 배열 :"+strarr.length);
         System.out.println("리스트 1: " + List1);
         System.out.println("리스트 2: " + List2);
+
         // 리스트 인덱싱하기
         for (int j = 0; j < List2.size(); j++) {
             System.out.println(List2.get(j));
         }
+
         HashMap<String, String> map = new HashMap<>();
         // Key : value
         // name : yoonsejong
